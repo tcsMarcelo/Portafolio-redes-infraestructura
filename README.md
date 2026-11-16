@@ -4,8 +4,8 @@ A continuación se muestran los parámetros básicos de configuración de un Swi
 1- En modo de configuración global: 
   - hostname "nombre.del.dispositivo"
   - line console 0
-    password "contraseña.de.consola"
-    login
+      password "contraseña.de.consola"
+      login
   - enable secret "CONTRASEÑA" (MCG: clave de acceso al modo privilegiado).
   - service password-encryption (MCG: encripta las contraseñas).
   - banner motd #MENSAJE# (MCG: crea un mensaje en el dispositivo).
