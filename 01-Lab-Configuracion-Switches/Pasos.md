@@ -1,6 +1,8 @@
 # Configuración básica de un Switch Cisco 2960
 A continuación se muestran los parámetros básicos de configuración de un Switch Cisco 2960
 
+<img width="450" height="450" alt="1" src="https://github.com/user-attachments/assets/ed36b304-f2a1-40e2-961f-6dad251057ab" />
+
 1- En modo de configuración global: 
 ```cisco
   - hostname "nombre.del.dispositivo"
