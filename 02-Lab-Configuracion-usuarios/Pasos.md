@@ -1,4 +1,4 @@
-# __Configuración básica de usuarios / acceso por SSH__ #
+### __Configuración básica de usuarios / acceso por SSH__ ###
 
 <img width="450" height="450" alt="1" src="https://github.com/user-attachments/assets/5ddbdd55-17c3-47c9-a073-62521d60f7d5" />
 
