@@ -1,7 +1,11 @@
-# Configuración básica de un Switch Cisco 2960
-A continuación se muestran los parámetros básicos de configuración de un Switch Cisco 2960
+### Configuración básica de un Switch Cisco 2960 y acceso por SSH ###
+
+A continuación se muestran los parámetros básicos de configuración de un Switch Cisco 2960, se debe considerar
+que para poder acceder al dispositivo se debe hacer uso de un cable RS232 el cuál irá conectado
+al puerto de consola del SWITCH.
 
 <img width="450" height="450" alt="1" src="https://github.com/user-attachments/assets/ed36b304-f2a1-40e2-961f-6dad251057ab" />
+
 
 1- En modo de configuración global: 
 ```cisco
