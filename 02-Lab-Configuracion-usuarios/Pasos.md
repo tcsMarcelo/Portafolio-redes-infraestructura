@@ -1,4 +1,6 @@
-# Configuración básica de usuarios #
+# __Configuración básica de usuarios / acceso SSH__ #
+
+<img width="450" height="450" alt="1" src="https://github.com/user-attachments/assets/5ddbdd55-17c3-47c9-a073-62521d60f7d5" />
 
 1. Configuración del Switch.
 
@@ -13,6 +15,7 @@ En modo de configuración global se asigna los primeros parámetros básicos
   - banner motd #mensaje.del.dispositivo#
 ```
 Luego, los respectivos comandos de acceso SSH
+```cisco
   - ip domain-name "nombre.de.dominio"
   - cryto key-generate rsa
           1024
@@ -20,6 +23,7 @@ Luego, los respectivos comandos de acceso SSH
   - line vty 0 5 (IMPORTANTE: En el ejemplo, solo estarán permitidos 6 usuarios simultáneos)
       - login authentication default
       - transport input ssh
+```
 
 
 
