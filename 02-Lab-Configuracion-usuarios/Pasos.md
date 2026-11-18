@@ -44,6 +44,8 @@ Vamos a continuar con los comandos de autenticación para el servidor TACACS+
   - En pestaña "DESKTOP", se debe acceder al apartado "IP CONFIGURATION" y asignar la IP correspondiente
   a la red LAN con la cuál estamos trabajando, también agregar la máscara de red.
 
+<img src="02-Lab-Configuracion-usuarios/img/6.jpg">
+
 NOTA: Para hacer pruebas de conectividad entre dispositivos se ocupa en comando "ping" más la
 dirección IP del equipo a donde queremos conectarnos.
    
