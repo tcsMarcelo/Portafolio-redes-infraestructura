@@ -1,6 +1,6 @@
-### **__BIENVENIDO A MI PORTAFOLIO__** ###
+### **__BIENVENIDO a GITHUB__** ###
 
-Este portafolio de redes e infraestructura de TI está organizado
+Este espacio dedicado a las redes e infraestructura de TI está organizado
 de forma que podrá ir accediendo a cada uno de los laboratorios para ir 
 descubriendo la topología puesta en práctica, su respectiva configuración,
 resultados de las pruebas de conectividad y uno que otro comentario al respecto.
