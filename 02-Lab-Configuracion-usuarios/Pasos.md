@@ -36,8 +36,19 @@ Vamos a continuar con los comandos de autenticación para el servidor TACACS+
   - tacacs-server host "dirección.servidor"
   - tacacs-server key "clave.creada.en.servidor"
 ```
+2. Configuración de la dirección IP en los PC
+   En cada uno de los dispositivos se asignará un dirección IPV4 estática, esto con fines prácticos.
+   En una topología de red en donde se conectarán más equipos, se suele asignar un direccionamiento
+   automático por medio de un servidor DHCP.
 
-2. Configuración del servidor
+  - En pestaña "DESKTOP", se debe acceder al apartado "IP CONFIGURATION" y asignar la IP correspondiente
+  a la red LAN con la cuál estamos trabajando, también agregar la máscara de red.
+
+NOTA: Para hacer pruebas de conectividad entre dispositivos se ocupa en comando "ping" más la
+dirección IP del equipo a donde queremos conectarnos.
+   
+
+4. Configuración del servidor
    En el servidor se debe asignar la dirección IP correspondiente a la red LAN,
    esta se debe configurar luego en el SWITCH para que los usuarios puedan autenticarse
    en el servidor.
@@ -51,3 +62,4 @@ Vamos a continuar con los comandos de autenticación para el servidor TACACS+
      - Nombre
      - Contraseña
        
+NOTA: Le conec
