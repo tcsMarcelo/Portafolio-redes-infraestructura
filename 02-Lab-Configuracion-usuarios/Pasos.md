@@ -30,7 +30,12 @@ Luego, los respectivos comandos de acceso SSH
   - copy running-config startup-config
 ```
 Vamos a continuar con los comandos de autenticación para el servidor TACACS+
-  - 
+```cisco
+  - aaa new-model
+  - aaa authentication login default group tacacs+ enable
+  - tacacs-server host "dirección.servidor"
+  - tacacs-server key "clave.creada.en.servidor"
+```
 
 2. Configuración del servidor
    En el servidor se debe asignar la dirección IP correspondiente a la red LAN,
