@@ -29,6 +29,8 @@ Luego, los respectivos comandos de acceso SSH
       - transport input ssh
   - copy running-config startup-config
 ```
+<img width="513" height="450" alt="8" src="https://github.com/user-attachments/assets/4d3816ab-61dd-425b-9830-91486c564c84" />
+
 Vamos a continuar con los comandos de autenticación para el servidor TACACS+
 ```cisco
   - aaa new-model
@@ -44,11 +46,11 @@ Vamos a continuar con los comandos de autenticación para el servidor TACACS+
   - En pestaña "DESKTOP", se debe acceder al apartado "IP CONFIGURATION" y asignar la IP correspondiente
   a la red LAN con la cuál estamos trabajando, también agregar la máscara de red.
 
-<img src="02-Lab-Configuracion-usuarios/img/6.jpg">
-
 NOTA: Para hacer pruebas de conectividad entre dispositivos se ocupa en comando "ping" más la
 dirección IP del equipo a donde queremos conectarnos.
    
+<img width="450" height="450" alt="6" src="https://github.com/user-attachments/assets/f62ef673-c7fc-43f2-bf26-da01e0cdc15b" />
+
 
 4. Configuración del servidor
    En el servidor se debe asignar la dirección IP correspondiente a la red LAN,
@@ -64,4 +66,4 @@ dirección IP del equipo a donde queremos conectarnos.
      - Nombre
      - Contraseña
        
-NOTA: Le conec
+
