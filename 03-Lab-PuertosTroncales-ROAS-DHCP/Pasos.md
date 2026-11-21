@@ -45,20 +45,23 @@ Para evitar pasos extra en mi ejemplo, accedo directamente al ROUTER para ingres
 que en entornos de producción es relevante asignar los comandos de configuración básicos cómo el nombre del dispositivo, mensaje
 de ROUTER, contraseñas, encriptación de contraseñas, etc.  
 
-Levantar puerto de salida al switch:
 
-```cisco
-- interface g0/0
-- no shutdown
-```
 Configurar subinterfaces (ejemplo: G0/0.10):
 ```cisco
 - interface g0/0.10
 - encapsulation dot1Q "número de VLAN"
 - ip address "dirección IP/máscara"
 ```
+Levantar puerto de salida al switch desde el modo de configuración global:
+
+```cisco
+- interface g0/0
+- no shutdown
+```
 	
-En modo de configuración global:
+Lo que sigue es crear el pool de direcciones que alimentarán a las VLAN y excluir aquellas direcciones que deseamos 
+que no sean tomadas en cuenta. En modo de configuración global:
+
 ```cisco
 - ip dhcp excluded-address "rango de direcciones a excluir"
 - ip dhcp pool "nombre del pool"
@@ -66,6 +69,8 @@ En modo de configuración global:
   - default-router "IP puerta de enlace"
 ```
 3. ESTABLECER DIRECCIÓN IP EN LOS DISPOSITIVOS UTILIZANDO DHCP.
+
+En cada dispositivo se debe acceder al apartado "Dirección IP"
 
 ANOTACIÓN: Se debe levantar la interfaz física para que levanten las subinterfaces lógicas.
 
