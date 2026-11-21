@@ -68,9 +68,16 @@ que no sean tomadas en cuenta. En modo de configuración global:
   - network "IP-red"
   - default-router "IP puerta de enlace"
 ```
-3. ESTABLECER DIRECCIÓN IP EN LOS DISPOSITIVOS UTILIZANDO DHCP.
 
-En cada dispositivo se debe acceder al apartado "Dirección IP"
+3. Configuración del servidor DHCP.
+- El Servidor debe ser puesto en servicio con una dirección (IPV4) para que el ROUTER pueda comunicarse con él y este entregue
+direccionamiento a la LAN 2.
+- En la pestaña servicios, apartado DHCP, se deben crear cada uno de los pool con su nombre, IP de red, máscara y rango de inicio.
+
+
+4. ESTABLECER DIRECCIÓN IP EN LOS DISPOSITIVOS UTILIZANDO DHCP.
+
+En cada dispositivo se debe acceder al apartado "Dirección IP". Una vez dentro, asignar automáticamente una dirección por DHCP
 
 ANOTACIÓN: Se debe levantar la interfaz física para que levanten las subinterfaces lógicas.
 
